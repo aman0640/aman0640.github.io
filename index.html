@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Man Games | Android Apps</title>
+    <meta name="description" content="Official website for A-Man Games. Download Wordcraft: Daily Puzzle, Sudoku Pro, and PDF Utility Pro on the Google Play Store.">
+    <style>
+        :root {
+            --bg-color: #121212;
+            --surface-color: #1e1e1e;
+            --primary-color: #bb86fc;
+            --text-main: #ffffff;
+            --text-muted: #b3b3b3;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 4rem 1rem;
+            background: linear-gradient(135deg, #1f1c2c 0%, #928dab 100%);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            color: #e0e0e0;
+            font-size: 1.1rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 1.8rem;
+            color: var(--primary-color);
+        }
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .app-card {
+            background-color: var(--surface-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+        .app-card:hover {
+            transform: translateY(-5px);
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            background-color: #333;
+            border-radius: 16px;
+            margin: 0 auto 1rem auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+        .app-title {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+        }
+        .app-desc {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+        .play-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: #000;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .play-button:hover {
+            background-color: #a370e0;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+            border-top: 1px solid #333;
+            color: var(--text-muted);
+        }
+        footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>A-Man Games</h1>
+        <p>Engaging Puzzles & Powerful Utilities for Android</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Our Portfolio</h2>
+        <div class="app-grid">
+            
+            <!-- App 1: Wordcraft -->
+            <div class="app-card">
+                <div class="app-icon">🔠</div>
+                <h3 class="app-title">Wordcraft: Daily Puzzle</h3>
+                <p class="app-desc">Challenge your vocabulary and keep your mind sharp with fresh daily word puzzles.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.amangames.wordcraft" class="play-button" target="_blank">Get it on Google Play</a>
+            </div>
+
+            <!-- App 2: Sudoku Pro -->
+            <div class="app-card">
+                <div class="app-icon">🔢</div>
+                <h3 class="app-title">Sudoku Pro</h3>
+                <p class="app-desc">The classic numbers game with advanced difficulty levels, smart hints, and a clean interface.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.amangames.sudokupro" class="play-button" target="_blank">Get it on Google Play</a>
+            </div>
+
+            <!-- App 3: PDF Utility Pro -->
+            <div class="app-card">
+                <div class="app-icon">📄</div>
+                <h3 class="app-title">PDF Utility Pro</h3>
+                <p class="app-desc">Merge, split, compress, and manage your PDF documents securely right from your device.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.amangames.pdfutilitypro" class="play-button" target="_blank">Get it on Google Play</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 A-Man Games. All rights reserved.</p>
+        <div style="margin-top: 10px;">
+            <!-- Crucial for AdMob/Play Store compliance -->
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="mailto:your_email@example.com">Contact Support</a>
+        </div>
+    </footer>
+
+</body>
+</html>
